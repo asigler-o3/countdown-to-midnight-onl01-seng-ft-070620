@@ -8,5 +8,5 @@ def countdown (number)
 end
 
 def countdown_with_sleep wait
-  wait 5 
+  wait 5
 end
