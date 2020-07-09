@@ -7,6 +7,5 @@ def countdown (number)
  "HAPPY NEW YEAR!"
 end
 
-def countdown_with_sleep (runtime)
-  runtime <= 5
+def countdown_with_sleep 
 end
