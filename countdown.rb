@@ -9,5 +9,6 @@ end
 
 def countdown_with_sleep (runtime)
   until runtime <= 5
+  puts runtime
   end
 end
