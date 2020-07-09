@@ -8,6 +8,7 @@ def countdown (number)
 end
 
 def countdown_with_sleep runtime
-  runtime = Benchmark.measure {countdown_with_sleep(5)}
-    puts runtime <= 5
+  while runtime = Benchmark.measure {countdown_with_sleep(5)}
+   puts runtime <= 5
+ end
 end
